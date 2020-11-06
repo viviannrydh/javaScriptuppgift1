@@ -20,10 +20,11 @@ input{
     width:60%;
 }
 
+
 h2{
     font-size: 1.2em;
-    color:rgb(19, 19, 97);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(21, 82, 151);
+    font-family: 'Times New Roman', Times, serif;
 }
 button{
     display: inline-block;
@@ -32,6 +33,9 @@ button{
     height:2.5em;
     border-color: aliceblue;
     margin: 5px;
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15%;
     
 }
 

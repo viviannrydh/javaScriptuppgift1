@@ -37,8 +37,8 @@ add.addEventListener('click',()=>{
      
      
      buttonsBox.appendChild(changeButton);
-     buttonsBox.appendChild(doneButton);
      buttonsBox.appendChild(deleteButton);
+     buttonsBox.appendChild(doneButton);
      box.appendChild(input);
      box.appendChild(buttonsBox);
      document.getElementById('to-do-container').appendChild(box);
@@ -51,6 +51,7 @@ add.addEventListener('click',()=>{
                 changeButton.innerText='Spara';
             } else {
                 changeButton.innerText='Ändra';
+                input.disabled=true;
             }
         } else {
             alert('Empty information can not be changed or saved!')
