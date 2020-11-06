@@ -5,7 +5,7 @@ let addButton=document.getElementById('add');
 
 
 add.addEventListener('click',()=>{
-   
+   if(userInput.value.length!=0){
     let box=document.createElement('div');
     box.className='input-group input-row';
     
@@ -73,5 +73,8 @@ add.addEventListener('click',()=>{
     deleteButton.addEventListener('click',()=>{
         deleteButton.parentNode.parentNode.remove();
     })
+} else {
+    alert('The information box can not be empty!')
+}
 
 });
